@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List</title>
+</head>
+<body>
+    <h1>List</h1>
+    <!--TestModelに入っている値をひとつずつ取り出してitemに入れる-->
+    {% for item in object_list %}
+    <p>{{ item.title}}</p>
+
+    {% endfor %}
+
+</body>
+</html>
